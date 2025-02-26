@@ -9,8 +9,93 @@ body {
 
 label{
     font-weight: 500;
+    margin-bottom: 0.7em;
 }
 
 p{
     font-weight: 500;
 }
+
+#name{
+    width: 15em;
+}
+
+#email{
+    width: 15em;
+}
+
+#subject{
+    width: 15em;
+}
+
+#message{
+    width: 25em;
+    height: 8em;
+}
+
+.form-btn{
+    border: none;
+    background-color: #2985cc;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 7em;
+    height: 2.5em;
+
+    margin-top: 2em;
+    /* font-size: 10px; */
+}
+
+.form-btn:hover{
+    background-color: #2473af;
+}
+
+form{
+    margin-top: 2em;
+}
+
+.desc{
+    margin-bottom: 0.7em;
+}
+
+input{
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+.flashes {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.flashes li {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Success messages (Green) */
+.flashes li.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-left: 5px solid #28a745;
+}
+
+

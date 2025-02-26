@@ -9,28 +9,28 @@
     {{form.csrf_token}}
     <div class="form_element">
         <div>{{form.name.label}} <span class="required">(Required)</span></div>
-        <div>Please enter your full name</div>
+        <div class="desc">Please enter your full name</div>
 
         <div>{{form.name}}</div>
     </div>
     <div class="form_element">
         <div>{{form.email.label}} <span class="required">(Required)</span></div>
-        <div>Please enter your e-mail address</div>
+        <div class="desc">Please enter your e-mail address</div>
 
         <div>{{form.email}}</div>
     </div>
     <div class="form_element">
         <div>{{form.subject.label}} <span class="required">(Required)</span></div>
-        <div>Please enter the subject of your message</div>
+        <div class="desc">Please enter the subject of your message</div>
 
         <div>{{form.subject}}</div>
     </div>
     <div class="form_element">
         <div>{{form.message.label}} <span class="required">(Required)</span></div>
-        <div>Please enter the message you would like to send</div>
+        <div class="desc">Please enter the message you would like to send</div>
         
         <div>{{form.message}}</div>
     </div>
-    <button type="submit" class="form-btn">Submit</button>
+    <button type="submit" class="form-btn">Send</button>
 </form>
 {% endblock main %}
