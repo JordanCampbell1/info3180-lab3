@@ -8,3 +8,6 @@ MarkupSafe==2.1.2
 python-dotenv==0.21.1
 Werkzeug==2.2.2
 zipp==3.11.0
+email_validator
+flask_mail
+flask_wtf

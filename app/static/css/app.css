@@ -1,3 +1,16 @@
 body {
     padding-top: 5rem;
 }
+
+.required{
+    color: red;
+    font-weight: 500;
+}
+
+label{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 500;
+}
